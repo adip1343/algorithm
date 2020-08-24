@@ -59,7 +59,7 @@ int main(){
 		}
 
 		rep(i,0,n){
-			cout<<p[i]<<" ";
+			cout<<s.substring(p[i],n-p[i])<<" ";
 		}
 	}
 
